@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Tracking System"
+        android:padding="10dp"
+        android:layout_marginTop="100dp"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        android:textColor="#343530"
+        android:textAlignment="center"
+        android:fontFamily="monospace"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="80sp"
+        android:layout_marginRight="70dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:padding="10dp"
+        android:text="ADMIN"
+        android:textColor="#264549"
+        android:textSize="30sp"
+        android:background="#fecfef"
+        android:textStyle="bold"
+        android:id="@+id/bt1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="60sp"
+        android:layout_marginRight="70dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:padding="10dp"
+        android:text="USER"
+        android:textColor="#264549"
+        android:textSize="30sp"
+        android:background="#fecfef"
+        android:textStyle="bold"
+        android:id="@+id/bt2"/>
+
+</LinearLayout>

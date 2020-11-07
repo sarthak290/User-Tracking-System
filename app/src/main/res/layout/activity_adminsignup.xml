@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGNUP AS ADMIN"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        android:textColor="#343530"
+        android:textAlignment="center"
+        android:fontFamily="monospace"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10sp"
+        android:layout_marginRight="70dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:padding="10dp"
+       android:hint="Enter Name"
+        android:textColor="#264549"
+        android:textSize="30sp"
+        android:background="#fecfef"
+        android:textStyle="bold"
+        android:id="@+id/et1"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="40sp"
+        android:layout_marginRight="70dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:padding="10dp"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:textColor="#264549"
+        android:textSize="30sp"
+        android:background="#fecfef"
+        android:textStyle="bold"
+        android:id="@+id/et2"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="40sp"
+        android:layout_marginRight="70dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:padding="10dp"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:textColor="#264549"
+        android:textSize="30sp"
+        android:background="#fecfef"
+        android:textStyle="bold"
+        android:id="@+id/et3"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40sp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:padding="10dp"
+        android:text="SIGNUP"
+        android:textColor="#264549"
+        android:textSize="30sp"
+        android:background="#fecfef"
+        android:textStyle="bold"
+        android:id="@+id/bt1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="If already a member click here"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#343530"
+        android:id="@+id/bt2"
+        android:textAlignment="center"
+        android:fontFamily="monospace"/>
+
+
+</LinearLayout>
